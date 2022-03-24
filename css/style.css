@@ -76,15 +76,18 @@ section {
   overflow: hidden;
   z-index: -3;
   background: #000 url("../img/stars.png") repeat top center;
+  height: 100vh;
 }
 .twinkling {
   z-index: -2;
   background: transparent url("../img/twinklingstars.png") repeat top center;
+  height: 100vh;
   animation: move-twink-back 200s linear infinite;
 }
 .clouds {
   z-index: -1;
   background: transparent url("../img/clouds2.png") repeat top center;
+  height: 100vh;
   animation: move-clouds-back 200s linear infinite;
 }
 @keyframes move-twink-back {
