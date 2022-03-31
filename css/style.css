@@ -36,9 +36,9 @@ body {
 .hero h2 {
   font-family: "Poppins", Helvetica, sans-serif;
   /* font-family: "baskerville-urw", Georgia, "Times New Roman", Times, serif serif; */
-  font-size: 8em;
+  font-size: 9em;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.3em;
   font-style: normal;
 }
 
@@ -67,10 +67,6 @@ section {
 }
 
 /* SEMANTIC GRID SYSTEM */
-
-.row > .column {
-}
-
 @media (min-width: 768px) {
   .row {
     display: flex;
@@ -79,6 +75,7 @@ section {
     margin-right: -2%;
   }
 }
+
 /* SECTIONS & CONTENT */
 marquee {
   font-family: "Poppins", Helvetica, sans-serif;
