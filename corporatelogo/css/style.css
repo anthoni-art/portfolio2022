@@ -60,25 +60,6 @@ section {
   padding: 1em;
 }
 
-/* IMAGES */
-.resize {
-  width: 400px;
-  height: auto;
-}
-
-/* SEMANTIC GRID SYSTEM */
-
-.row > .column {
-}
-
-@media (min-width: 768px) {
-  .row {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -2%;
-    margin-right: -2%;
-  }
-}
 /* SECTIONS & CONTENT */
 marquee {
   font-family: "Poppins", Helvetica, sans-serif;
@@ -100,14 +81,6 @@ marquee {
 }
 
 /* TWINKLING STARS & CLOUDS */
-#space {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
 .stars,
 .twinkling,
 .clouds {
