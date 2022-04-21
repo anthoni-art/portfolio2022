@@ -26,7 +26,6 @@ a {
 body {
   font-family: "Helvetica", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.8);
-  max-width: 1000px;
   margin: 0 auto;
   padding: 1em;
   font-size: 87.5%;
@@ -61,8 +60,8 @@ section {
 }
 
 /* IMAGES */
-.resize {
-  width: 400px;
+img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -151,6 +150,27 @@ marquee {
   to {
     background-position: 10000px 0;
   }
+}
+
+/* Featured Projects */
+.featured-projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-projects li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-projects .textbox {
+  max-width: 35em;
+}
+
+.featured-projects .imagebox {
+  max-width: 50vw;
 }
 
 /* 
