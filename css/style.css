@@ -51,6 +51,17 @@ body {
   padding: 1em;
 }
 
+.site-nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.site-nav a {
+  padding: 1em;
+  text-decoration: none;
+}
+
 section {
   padding: 1em;
 }
@@ -93,6 +104,41 @@ marquee {
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 2em;
   line-height: 1.2em;
+}
+
+/* #IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.circular {
+  max-width: 30em;
+  border-radius: 2em;
+}
+
+/* FLEX GRID */
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  .one-third.column {
+    width: 32%;
+  }
+  .two-thirds.column {
+    width: 60%;
+  }
+}
+
+/* PORT IMAGES SUBPAGES*/
+.portimages img {
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
+  margin: 0 0 1em 0;
+}
+.portimages {
+  column-count: 2;
 }
 
 /* TWINKLING STARS & CLOUDS */
@@ -163,10 +209,18 @@ marquee {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 3em 0;
+
+  /* flex-direction: row-reverse; */
+}
+
+.featured-projects li:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .featured-projects .textbox {
   max-width: 35em;
+  margin: 0 2em;
 }
 
 .featured-projects .imagebox {
