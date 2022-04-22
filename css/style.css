@@ -26,6 +26,7 @@ a {
 body {
   font-family: "Helvetica", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.8);
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1em;
   font-size: 87.5%;
@@ -94,6 +95,15 @@ marquee {
   padding: 1.5em 0em;
 }
 
+.container {
+  max-width: 1000px;
+}
+
+.description {
+  margin: 0 auto;
+  width: 1000px;
+}
+
 #featuredwork h3 {
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 5em;
@@ -121,7 +131,7 @@ img {
 @media (min-width: 768px) {
   .row {
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
     margin-bottom: 1em;
   }
   .one-third.column {
