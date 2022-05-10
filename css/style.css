@@ -38,7 +38,7 @@ body {
   /* font-family: "baskerville-urw", Georgia, "Times New Roman", Times, serif serif; */
   font-size: 9em;
   font-weight: 400;
-  line-height: 1.3em;
+  line-height: 1;
   font-style: normal;
 }
 
@@ -50,6 +50,10 @@ body {
 
 .site-header {
   padding: 1em;
+}
+
+.logo {
+  max-width: 20px;
 }
 
 .site-nav ul {
@@ -127,6 +131,12 @@ marquee {
 .description {
   margin: 0 auto;
   width: 1000px;
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 #featuredwork h3 {
@@ -207,12 +217,22 @@ img {
 }
 
 .featured-projects .textbox {
-  max-width: 35em;
+  /* max-width: 35em; */
+  width: 50%;
   margin: 0 2em;
 }
 
 .featured-projects .imagebox {
-  max-width: 50vw;
+  /* max-width: 50vw; */
+  width: 50%;
+}
+
+.featured-projects .smallimg-bigtext .textbox {
+  width: 75%;
+}
+
+.featured-projects .smallimg-bigtext .imagebox {
+  width: 25%;
 }
 
 /* ANIMATIONS */
