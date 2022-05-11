@@ -33,6 +33,16 @@ body {
   font-style: normal;
 }
 
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 5.5em;
+  }
+  .hero h3,
+  #featuredwork h3 {
+    font-size: 1.5em;
+  }
+}
+
 /* LINKS */
 a {
   color: rgb(255 255 255 / 1);
@@ -155,6 +165,7 @@ marquee {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 .circular {
@@ -204,6 +215,10 @@ img {
 
 .featured-projects li:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.featured-projects li:nth-child(odd) {
+  text-align: right;
 }
 
 .featured-projects li > div {
