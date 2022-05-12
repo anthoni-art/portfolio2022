@@ -13,7 +13,39 @@ body {
   color: rgb(255 255 255 / 0.8);
 }
 
+/* LINKS */
+a {
+  color: rgb(255 255 255 / 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(201, 201, 201, 0.6);
+}
+
 /* TYPOGRAPHY */
+.hero h2 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  /* font-family: "baskerville-urw", Georgia, "Times New Roman", Times, serif serif; */
+  font-size: 8em;
+  font-weight: 400;
+  line-height: 1.02;
+  font-style: normal;
+}
+
+#featuredwork h3 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 8em;
+  line-height: 1.2em;
+}
+
+#featuredwork-titles h4 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 3em;
+  margin: auto;
+  line-height: 1.2em;
+}
+
 body {
   font-family: "Helvetica", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.8);
@@ -24,33 +56,37 @@ body {
   line-height: 1.5em;
 }
 
-.hero h2 {
-  font-family: "Poppins", Helvetica, sans-serif;
-  /* font-family: "baskerville-urw", Georgia, "Times New Roman", Times, serif serif; */
-  font-size: 9em;
-  font-weight: 400;
-  line-height: 1;
-  font-style: normal;
-}
-
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 5.5em;
+    font-size: 4em;
   }
   .hero h3,
   #featuredwork h3 {
     font-size: 1.5em;
   }
-}
 
-/* LINKS */
-a {
-  color: rgb(255 255 255 / 1);
-  text-decoration: none;
-}
+  #featuredwork h3 {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 4.5em;
+    line-height: 1.2em;
+  }
 
-a:hover {
-  color: rgba(201, 201, 201, 0.6);
+  #featuredwork-titles h4 {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 2em;
+    margin: auto;
+    line-height: 1.2em;
+  }
+
+  body {
+    font-family: "Helvetica", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 87.5%;
+    line-height: 1.5em;
+  }
 }
 
 /* LAYOUT */
@@ -88,6 +124,12 @@ section {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 20px;
+}
+
+.circular {
+  max-width: 30em;
+  border-radius: 2em;
 }
 
 /* SEMANTIC GRID SYSTEM */
@@ -97,6 +139,7 @@ img {
     justify-content: space-between;
     margin-left: -2%;
     margin-right: -2%;
+    border-radius: 0;
   }
 }
 
@@ -146,30 +189,6 @@ marquee {
   position: absolute;
   top: -9999px;
   left: -9999px;
-}
-
-#featuredwork h3 {
-  font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 10em;
-  line-height: 1.2em;
-}
-
-#featuredwork-titles h4 {
-  font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 3em;
-  line-height: 1.2em;
-}
-
-/* #IMAGES */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-
-.circular {
-  max-width: 30em;
-  border-radius: 2em;
 }
 
 /* FLEX GRID */
