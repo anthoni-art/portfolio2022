@@ -59,7 +59,6 @@ a:hover {
   justify-content: space-between;
   max-width: 1600px;
   padding: 1em;
-  border: 1px solid rgb(255, 49, 49);
 }
 
 .logo {
@@ -151,13 +150,13 @@ marquee {
 
 #featuredwork h3 {
   font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 5em;
+  font-size: 10em;
   line-height: 1.2em;
 }
 
 #featuredwork-titles h4 {
   font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.2em;
 }
 
